@@ -51,7 +51,7 @@ const NegativeBarChart = (props: HighchartsReact.Props) => {
       highcharts={Highcharts}
       options={options}
       ref={chartComponentRef}
-      containerProps={{ style: { height: "70vh", width: "70vw" } }}
+      containerProps={{ className: "w-screen lg:w-70vw h-128 lg:h-192" }}
       {...props}
     />
   );
