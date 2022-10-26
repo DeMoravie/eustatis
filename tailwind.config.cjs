@@ -5,6 +5,13 @@ module.exports = {
       fontFamily: {
         'spectral': ['"Spectral"'],
       },
+      height: {
+        '192': '48rem',
+        '128': '32rem',
+      },
+      width: {
+        '40vw': '40vw',
+      }
     },
   },
   plugins: [],

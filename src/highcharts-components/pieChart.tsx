@@ -48,7 +48,7 @@ const PieChart = (props: HighchartsReact.Props) => {
       highcharts={Highcharts}
       options={options}
       ref={chartComponentRef}
-      containerProps={{ style: { height: "70vh", width: "40vw" } }}
+      containerProps={{ className: "w-screen lg:w-40vw h-128 lg:h-192"}}
       {...props}
     />
   );

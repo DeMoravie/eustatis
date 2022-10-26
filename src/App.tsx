@@ -25,7 +25,7 @@ function App() {
         <div>
           <div className="flex flex-col justify-center">
             <div className="text-2xl mt-10">Gesamtbevölkerung:</div>
-            <div className="mt-10 flex flex-wrap justify-center"> 
+            <div className="mt-10 flex justify-center flex-col lg:flex-row"> 
               <div>
                 <PieChart data={ohneUndMit2010} title="2010"/>
               </div>
@@ -33,7 +33,7 @@ function App() {
                 <PieChart data={ohneUndMit2020} title="2020"/>
               </div>
             </div>
-            <div className="mt-10 flex flex-wrap justify-center"> 
+            <div className="mt-10 flex justify-center flex-col lg:flex-row"> 
               <div>
                 <PieChart data={ohneUndMitAusfuehrlich2010} title="2010" />
               </div>
@@ -43,7 +43,7 @@ function App() {
             </div>
             <div className="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700 pl-5 pr-5"></div>
             <div className="text-2xl mt-2">Bevölkerung mit Migrationshintergrund:</div>
-            <div className="mt-10 flex flex-wrap justify-center">         
+            <div className="mt-10 flex justify-center flex-col lg:flex-row">         
               <div>
                 <PieChart data={mitAusfuehrlich2010} title="2010" />
               </div>
